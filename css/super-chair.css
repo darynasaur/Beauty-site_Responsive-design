@@ -1,0 +1,96 @@
+.super-chair {
+    background-image: url("../images/super-chair.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 604px;
+    background-size: cover;
+}
+
+.super-chair button{
+    color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color:#F13C6E;
+    margin-bottom:182px;
+    margin-top: 20px
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    color:#FFFFFF;
+    padding: 192px 0 50px 0;
+    
+}
+
+.super-chair p {
+    color:#FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    max-width: 200px; 
+    max-height:200px;
+    overflow: hidden;
+}
+
+.super-chair .super-chair__container {
+    max-width: 253px;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .super-chair {
+        height: 450px;
+    }
+
+    h2 {
+        padding-top: 130px;
+    }
+
+}
+
+
+
+
+@media (max-width:768px) {
+    .super-chair p {
+        font-size: 2rem;
+    }
+
+    .super-chair button {
+    padding: 12px 20px;
+    width: 100px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .super-chair {
+        height: 250px;
+    }
+
+    h2 {
+        padding-top: 52px;
+        padding-bottom: 30px;
+    }
+
+    .super-chair p {
+        width: 150px;
+    }
+
+    .super-chair button {
+        height: 30px;
+        width: 80px;
+        font-size: 11px;
+        padding: 7px 20px;
+    }
+
+
+}

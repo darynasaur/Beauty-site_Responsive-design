@@ -1,0 +1,164 @@
+
+
+.bonuses .col-6 {
+    font-size: 0px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.bonuses .row {
+    margin: 0px -15px;
+    font-size:0px;
+    padding-bottom: 99px;
+}
+
+.bonuses .card__bonuses-description {
+    display: inline-block;
+    max-width: 196px;
+}
+
+.bonuses .card__bonuses-description h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    margin:0px;
+    padding-bottom: 25px;
+    max-height: 46px;
+    max-width: 304px;
+    overflow: hidden;
+}
+   
+.bonuses .card__bonuses-description p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+    max-height: 65px;
+    max-width:196px;
+    overflow: hidden;
+}
+
+
+
+.bonuses {
+    background-color: #E5E5E5;
+}
+
+.bonuses .card__bonuses-description input {
+margin: 0px;
+
+}
+
+input.email::-webkit-input-placeholder {
+    color: #C4C4C4;
+    opacity:1;
+    text-align: center;
+}
+
+.bonuses .email {
+    border: 2px solid #F13C6E;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    border-radius: 40px;
+    padding:9px 10px;
+}
+
+.store-map {
+    display: block;
+    color: white;
+    background-color: #F13C6E;
+    border: 2px solid white;
+    padding: 9px 26px 9px 27px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-decoration: none;
+    width: 160px;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.store-map:hover {
+    font-weight: 700;
+}
+
+
+.bonuses .card {
+    padding: 35px 40px;
+    background-color: #F13C6E;
+}
+
+.bonuses img {
+    float:right;
+}
+
+.bonuses .second-picture {
+    padding:18px 0px;
+}
+
+.max-height {
+    max-height: 196px;
+}
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .bonuses .card {
+        padding: 18px 18px;
+    }
+
+    .bonuses .card a {
+        width: 130px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+    .bonuses .card {
+        margin: 10px 0px;
+    }
+
+    .bonuses .row {
+        padding-bottom: 50px;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .bonuses img {
+        width: 100px;
+    }
+
+    .bonuses .card__bonuses-description h3 {
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+    }
+
+    .bonuses .card__bonuses-description p {
+        font-size: 1.9rem;
+        padding-bottom: 20px;
+    }
+
+    .bonuses .card {
+        padding: 18px 35px;
+    }
+
+    .bonuses .card a {
+        width: 110px;
+    }
+
+    .bonuses .row {
+        padding-bottom: 20px;
+    }
+
+}

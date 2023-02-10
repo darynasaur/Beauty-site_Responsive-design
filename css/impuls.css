@@ -1,0 +1,41 @@
+.impuls {
+    background-color: #E5E5E5;
+    
+}
+
+.images img {
+    border: 1px solid #EFEFEF;
+    padding: 35px 65px;
+    background-color: #FFFFFF;
+}
+
+.impuls .container .images {
+    font-size: 0px;
+}
+
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+}
+
+
+
+
+@media (max-width:768px) {
+    .col-sm-4 {
+        width: 33%;
+    }
+    
+}
+
+@media (max-width:425px) {
+    .col-xs-6 {
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,190 @@
+.popular .row {
+    font-size: 0px;
+    margin: 0px -15px;
+}
+
+.popular a {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    text-decoration: none;
+    color: #828282;
+}
+
+.popular h3 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    margin: 0px;
+}
+
+.popular .col-3 {
+    display: inline-block; 
+    padding: 0px 15px;
+}
+
+.popular {
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.popular .card {
+    padding: 35px 0px;
+}
+
+.popular .popular-container {
+    padding:20px 0px;
+}
+
+
+.connections {
+    background-color: white;
+    border-bottom: #EFEFEF;
+}
+
+.fa-brands {
+    color:#F13C6E;
+    width: 50px;
+    height: 50px;
+    font-size:3.0rem;
+    margin: 40px 0px;
+    border: 3px solid #F13C6E;
+    border-radius: 100px;
+    text-align: center;
+    padding:7px 0px;
+    margin-right: 10px;
+}
+
+.icon a:hover .fa-brands {
+    border: 3px solid  black;
+    color:black;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+
+
+.policy {
+    background-color:  #EFEFEF;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.policy .clear-fix {
+    padding:25px 0px;
+    color:#828282;
+}
+
+.policy .right {
+    color:#828282;
+    text-decoration: none;
+}
+
+.popular li {
+    display: block;
+}
+
+.connections ul {
+    margin:0px;
+    padding:0px;
+}
+
+.connections .tel {
+    padding: 56px 40px 55px 0px;
+}
+
+.connections button {
+    margin: 43px 0px;
+}
+
+footer a:hover {
+    color: #F13C6E;
+}
+
+
+@media (max-width:1024px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .fa-brands {
+        padding: 11px 0px;
+        margin: 25px 0px;
+    }
+
+    footer .connections .tel {
+        padding: 40px 20px 40px 0px;
+    }
+    
+    .connections button {
+         margin: 25px 0px;
+    }
+    
+}
+
+
+
+
+@media (max-width:768px) {
+.popular .card {
+    padding:20px 0px
+}
+
+.popular h3 {
+    padding-bottom: 20px;
+}
+
+footer button {
+    width: 120px;
+}
+    
+}
+
+@media (max-width:425px) {
+
+.popular .card {
+        padding:20px 40px
+}
+.col-xs-6 {
+    width: 50%;
+}
+
+.popular h3 {
+    font-size: 2rem;
+}
+
+.popular h3 {
+    padding-bottom: 10px;
+}
+
+.popular a {
+    font-size: 2rem;
+}
+
+.popular .popular-container {
+    padding: 5px 0px;
+}
+
+
+.fa-brands {
+    padding: 6px 0px;
+    margin: 9px 0px;
+    width: 30px;
+    height: 30px;    
+}
+
+footer .connections .tel {
+    padding: 18px 20px 18px 0px;
+}
+.connections button {
+    margin: 10px 0px;
+    width: 70px;
+    height: 30px;
+    font-size: 9px;
+    padding: 0px;
+}
+
+
+}
