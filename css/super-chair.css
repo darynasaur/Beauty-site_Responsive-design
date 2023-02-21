@@ -83,6 +83,9 @@ h2 {
 
     .super-chair p {
         width: 150px;
+        font-size: 3rem;
+        line-height: 3rem;
+        max-height: 300px;
     }
 
     .super-chair button {

@@ -152,7 +152,7 @@ footer button {
 }
 
 .popular h3 {
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
 .popular h3 {
@@ -160,7 +160,8 @@ footer button {
 }
 
 .popular a {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
 }
 
 .popular .popular-container {
@@ -177,14 +178,30 @@ footer button {
 
 footer .connections .tel {
     padding: 18px 20px 18px 0px;
+    font-size: 2.2rem;
 }
 .connections button {
     margin: 10px 0px;
     width: 70px;
     height: 30px;
-    font-size: 9px;
+    font-size: 10px;
     padding: 0px;
 }
 
+
+.connections li {
+    padding-right: 5px;
+}
+
+
+.policy {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+}
+
+.policy .left-float {
+    width: 200px;
+
+}
 
 }

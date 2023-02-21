@@ -140,13 +140,15 @@ input.email::-webkit-input-placeholder {
     }
 
     .bonuses .card__bonuses-description h3 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         padding-bottom: 15px;
     }
 
     .bonuses .card__bonuses-description p {
-        font-size: 1.9rem;
+        font-size: 2.5rem;
         padding-bottom: 20px;
+        max-height: 150px;
+        line-height: 3rem;
     }
 
     .bonuses .card {
@@ -154,11 +156,19 @@ input.email::-webkit-input-placeholder {
     }
 
     .bonuses .card a {
-        width: 110px;
+        width: 136px;
     }
 
     .bonuses .row {
         padding-bottom: 20px;
+    }
+
+    .bonuses .email {
+        font-size: 1.9rem;
+    }
+
+    .bonuses .store-map {
+        font-size: 1.9rem;
     }
 
 }

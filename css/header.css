@@ -104,6 +104,9 @@ header a:hover {
     border-bottom: 1px solid #EFEFEF;
 }
 
+.icons {
+    display: none;
+}
 
 
 @media (max-width:1024px) {
@@ -158,7 +161,7 @@ header a:hover {
     }
 
     .container-nav-2 li:not(:last-child) {
-        padding-right: 20px;
+        padding-right: 17px;
     }
 
     header button {
@@ -210,16 +213,16 @@ header a:hover {
     .container-nav-2 {
         flex-wrap: wrap;
     display: flex;
-    width: 200px;
+    width: 250px;
     padding: 10px 0px;
     }
 
     .container-nav-2 a {
-        font-size: 2.3rem;
+        font-size: 2.6rem;
     }
 
     header .container-nav-2 .padding33 {
-        padding-right: 34px;
+        padding-right: 33px;
     }
 
     header button {
@@ -234,4 +237,15 @@ header a:hover {
         font-size: 11px;
     }
 
+
+    .container-nav li {
+        padding-right: 30px;
+    }
+
+    .fa-close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 27px;
+    }
 }
